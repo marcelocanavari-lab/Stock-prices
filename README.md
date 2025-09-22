@@ -35,3 +35,19 @@ Descargando de Yahoo Finance... Datos guardados en stocks.db Mostrando últimos 
 - El repositorio debe contener: 1. pyproject.toml generado por Poetry. 2. main.py con el código del
 ejercicio. 3. .gitignore para excluir archivos innecesarios (.venv, __pycache__, *.db). - Sube los
 cambios a GitHub y comparte el link del repositorio.
+
+
+Para Ejecutar
+
+pyenv local 3.12.10
+
+```
+
+2- crear venv con poetry
+```bash
+poetry shell
+```
+
+3-
+```bash 
+poetry install
